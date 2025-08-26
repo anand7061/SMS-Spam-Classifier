@@ -98,7 +98,7 @@ To run this project locally, follow these steps:
 
 To make a prediction on a new SMS message, you can run the main application script:
 
-```bash
+
 # Example if you have a Streamlit app
 streamlit run app.py
 
@@ -117,6 +117,7 @@ Recall: XX.XX% (e.g., 94.25%)
 A confusion matrix was also generated to visualize the model's performance in distinguishing between the two classes.
 
 File Structure
+```bash
     spam-sms-classifier/
     │
     ├── app.py                  # Main script for the web app (e.g., Streamlit/Flask)
