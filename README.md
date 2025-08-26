@@ -127,6 +127,7 @@ File Structure
     ├── requirements.txt        # List of Python dependencies
     ├── .gitignore              # Files and directories to be ignored by Git
     └── README.md               # Project documentation
+```
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
