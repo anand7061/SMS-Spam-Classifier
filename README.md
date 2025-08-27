@@ -51,14 +51,14 @@ This project demonstrates text preprocessing, feature extraction using **TF-IDF*
 ---
 
 ## 📂 Project Structure
-sms-spam-classifier/
-│
-├── app.py # Streamlit application
-├── model.pkl # Trained MultinomialNB model
-├── vectorizer.pkl # TF-IDF vectorizer
-├── requirements.txt # Dependencies
-├── README.md # Project documentation
-└── data/ # (Optional) Dataset files
+   sms-spam-classifier/
+   │
+   ├── app.py # Streamlit application
+   ├── model.pkl # Trained MultinomialNB model
+   ├── vectorizer.pkl # TF-IDF vectorizer
+   ├── requirements.txt # Dependencies
+   ├── README.md # Project documentation
+   └── data/ # (Optional) Dataset files
 
 
 
@@ -71,14 +71,14 @@ sms-spam-classifier/
 
 # 1. Clone the repository
    Bash
-   git clone https://github.com/<your-username>/sms-spam-classifier.git
+      git clone https://github.com/<your-username>/sms-spam-classifier.git
 cd sms-spam-classifier
 
 # 2. Create a virtual environment (recommended)
    Bash
-   python -m venv venv
-   source venv/bin/activate   # Mac/Linux
-   venv\Scripts\activate      # Windows
+      python -m venv venv
+      source venv/bin/activate   # Mac/Linux
+      venv\Scripts\activate      # Windows
 
 # 3. Install dependencies
    Bash
