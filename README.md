@@ -98,23 +98,17 @@ cd sms-spam-classifier
 Input:
 
 pgsql
-Copy code
-Congratulations! You have won a $1000 Walmart gift card. Click here to claim.
+
+   Congratulations! You have won a $1000 Walmart gift card. Click here to claim.
 Output:
 
-nginx
-Copy code
-**SPAM 🚨**
+   SPAM 🚨
+   
 Input:
 
-rust
-Copy code
-Hey, are we still meeting for lunch today?
+   Hey, are we still meeting for lunch today?
 Output:
-
-nginx
-Copy code
-**HAM ✅**
+   HAM ✅
 ## 🛠️ Tech Stack
 Python 3.8+
 
