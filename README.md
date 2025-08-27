@@ -64,27 +64,28 @@ sms-spam-classifier/
 
 ---
 
-## 🚀 Installation & Setup
+
+---
 
 ## 🚀 Installation & Setup
 
-### 1. Clone the repository
 ```bash
+# 1. Clone the repository
 git clone https://github.com/<your-username>/sms-spam-classifier.git
 cd sms-spam-classifier
 
-2. Create a virtual environment (recommended)
-```bash
-Copy code
+# 2. Create a virtual environment (recommended)
 python -m venv venv
-   source venv/bin/activate   # Mac/Linux
-   venv\Scripts\activate      # Windows
-3. Install dependencies
-```bash
-Copy code   
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+
+# 3. Install dependencies
 pip install -r requirements.txt
-4. Run Streamlit app
-```bash
+
+# 4. Run the app
+streamlit run app.py
+
+
 streamlit run app.py
 📊 Example
 Input:
