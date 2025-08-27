@@ -73,18 +73,19 @@ This project demonstrates text preprocessing, feature extraction using **TF-IDF*
 
 # 1. Clone the repository
    Bash
-      git clone https://github.com/<your-username>/sms-spam-classifier.git
+   
+         git clone https://github.com/<your-username>/sms-spam-classifier.git
 cd sms-spam-classifier
 
 # 2. Create a virtual environment (recommended)
    Bash
-      python -m venv venv
-      source venv/bin/activate   # Mac/Linux
-      venv\Scripts\activate      # Windows
+         python -m venv venv
+         source venv/bin/activate   # Mac/Linux
+         venv\Scripts\activate      # Windows
 
 # 3. Install dependencies
    Bash
-   pip install -r requirements.txt
+         pip install -r requirements.txt
 
 # 4. Run the app
    Bash
