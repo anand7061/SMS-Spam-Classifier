@@ -7,7 +7,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
 A machine learning–based web application built with **Streamlit** that classifies SMS or Email messages as **Spam** or **Ham (Not Spam)**.  
-This project demonstrates text preprocessing, feature extraction using **TF-IDF**, and classification with **Multinomial Naive Bayes**.  
+This project demonstrates text preprocessing, feature extraction using **TF-IDF**, and classification with **Multinomial Naive Bayes**. 
+
+
+---
+
+## 🌐 Live Demo
+👉 [Click here to try the app](https://sms-spam-classifier-73uytas2eviu6rvgai9dtr.streamlit.app/)  
 
 ---
 
@@ -54,30 +60,28 @@ sms-spam-classifier/
 ├── README.md # Project documentation
 └── data/ # (Optional) Dataset files
 
-yaml
-Copy code
+
 
 ---
 
 ## 🚀 Installation & Setup
 
 ### 1. Clone the repository
-bash
-   git clone https://github.com/<your-username>/sms-spam-classifier.git
+```bash
+git clone https://github.com/<your-username>/sms-spam-classifier.git
    cd sms-spam-classifier  
 2. Create a virtual environment (recommended)
-bash
+```bash
 Copy code
-   python -m venv venv
+python -m venv venv
    source venv/bin/activate   # Mac/Linux
    venv\Scripts\activate      # Windows
 3. Install dependencies
-bash
-Copy code
-   pip install -r requirements.txt
+```bash
+Copy code   
+pip install -r requirements.txt
 4. Run Streamlit app
-bash
-Copy code
+```bash
 streamlit run app.py
 📊 Example
 Input:
