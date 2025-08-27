@@ -249,7 +249,8 @@ st.sidebar.write(
     - Simple & Beautiful UI  
 
     ---
-    👨‍💻 Developed by: **Your Name**
+    👨‍💻 Developed by: **ANAND KUMAR**
     """
 )
+
 
