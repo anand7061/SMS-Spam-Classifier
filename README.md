@@ -79,16 +79,19 @@ cd sms-spam-classifier
 
 # 2. Create a virtual environment (recommended)
    Bash
+   
          python -m venv venv
          source venv/bin/activate   # Mac/Linux
          venv\Scripts\activate      # Windows
 
 # 3. Install dependencies
    Bash
+   
          pip install -r requirements.txt
 
 # 4. Run the app
    Bash
+   
    streamlit run app.py
 
 
