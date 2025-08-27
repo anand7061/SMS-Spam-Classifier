@@ -213,12 +213,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ------------------- MAIN APP -------------------
-st.markdown("<div class='title'>📩 Email/SMS Spam Classifier</div>", unsafe_allow_html=True)
+st.markdown("<div class='title'>Email/SMS Spam Classifier</div>", unsafe_allow_html=True)
 st.markdown("<div class='subheader'>Detect whether a message is Spam or Not Spam instantly!</div>", unsafe_allow_html=True)
 
 input_sms = st.text_area("✍️ Enter your message below:")
 
-if st.button('🔍 Predict'):
+if st.button(' Predict '):
     # 1. Preprocess
     transformed_sms = transform_text(input_sms)
     # 2. Vectorize
@@ -252,5 +252,6 @@ st.sidebar.write(
     👨‍💻 Developed by: **ANAND KUMAR**
     """
 )
+
 
 
