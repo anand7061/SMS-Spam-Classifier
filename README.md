@@ -53,14 +53,14 @@ This project demonstrates text preprocessing, feature extraction using **TF-IDF*
 📂 Project Structure
  Bash
  
-   sms-spam-classifier/
-   │
-   ├── app.py # Streamlit application
-   ├── model.pkl # Trained MultinomialNB model
-   ├── vectorizer.pkl # TF-IDF vectorizer
-   ├── requirements.txt # Dependencies
-   ├── README.md # Project documentation
-   └── data/ # (Optional) Dataset files
+      sms-spam-classifier/
+      │
+      ├── app.py # Streamlit application
+      ├── model.pkl # Trained MultinomialNB model
+      ├── vectorizer.pkl # TF-IDF vectorizer
+      ├── requirements.txt # Dependencies
+      ├── README.md # Project documentation
+      └── data/ # (Optional) Dataset files
 
 
 
