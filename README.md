@@ -92,10 +92,8 @@ cd sms-spam-classifier
 # 4. Run the app
    Bash
    
-   streamlit run app.py
-
-
-streamlit run app.py
+      streamlit run app.py
+      streamlit run app.py
 ### 📊 Example
 Input:
 
