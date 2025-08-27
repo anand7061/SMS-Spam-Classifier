@@ -62,9 +62,9 @@ Copy code
 ## 🚀 Installation & Setup
 
 ### 1. Clone the repository
-```bash
+bash
    git clone https://github.com/<your-username>/sms-spam-classifier.git
-   cd sms-spam-classifier ```  
+   cd sms-spam-classifier  
 2. Create a virtual environment (recommended)
 bash
 Copy code
