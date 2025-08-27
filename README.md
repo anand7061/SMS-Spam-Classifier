@@ -70,15 +70,18 @@ sms-spam-classifier/
 
 
 # 1. Clone the repository
+Bash
    git clone https://github.com/<your-username>/sms-spam-classifier.git
 cd sms-spam-classifier
 
 # 2. Create a virtual environment (recommended)
+Bash
    python -m venv venv
    source venv/bin/activate   # Mac/Linux
    venv\Scripts\activate      # Windows
 
 # 3. Install dependencies
+Bash
    pip install -r requirements.txt
 
 # 4. Run the app
@@ -86,7 +89,7 @@ cd sms-spam-classifier
 
 
 streamlit run app.py
-📊 Example
+### 📊 Example
 Input:
 
 pgsql
@@ -107,7 +110,7 @@ Output:
 nginx
 Copy code
 HAM ✅
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Python 3.8+
 
 Streamlit – UI & Deployment
@@ -118,7 +121,7 @@ NLTK – Text Preprocessing
 
 Pickle – Model persistence
 
-📌 Requirements
+### 📌 Requirements
 Make sure your requirements.txt includes:
 
 nginx
@@ -128,7 +131,7 @@ scikit-learn
 nltk
 pandas
 numpy
-🌍 Deployment
+### 🌍 Deployment
 Deployed on Streamlit Community Cloud
 
 Push code & model files (app.py, model.pkl, vectorizer.pkl, requirements.txt) to GitHub
