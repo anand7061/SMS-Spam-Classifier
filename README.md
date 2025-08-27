@@ -63,18 +63,18 @@ Copy code
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/sms-spam-classifier.git
-cd sms-spam-classifier
+   git clone https://github.com/<your-username>/sms-spam-classifier.git
+   cd sms-spam-classifier   
 2. Create a virtual environment (recommended)
 bash
 Copy code
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
+   python -m venv venv
+   source venv/bin/activate   # Mac/Linux
+   venv\Scripts\activate      # Windows
 3. Install dependencies
 bash
 Copy code
-pip install -r requirements.txt
+   pip install -r requirements.txt
 4. Run Streamlit app
 bash
 Copy code
