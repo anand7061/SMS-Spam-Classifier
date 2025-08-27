@@ -105,9 +105,11 @@ Output:
 Input:
 
    Hey, are we still meeting for lunch today?
+   
 Output:
 
    NOT SPAM ✅
+   
 ## 🛠️ Tech Stack
 Python 3.8+
 
