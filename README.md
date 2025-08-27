@@ -50,7 +50,9 @@ This project demonstrates text preprocessing, feature extraction using **TF-IDF*
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
+ Bash
+ 
    sms-spam-classifier/
    │
    ├── app.py # Streamlit application
