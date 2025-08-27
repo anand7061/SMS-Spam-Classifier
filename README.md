@@ -97,8 +97,6 @@ cd sms-spam-classifier
 ### 📊 Example
 Input:
 
-pgsql
-
    Congratulations! You have won a $1000 Walmart gift card. Click here to claim.
 Output:
 
@@ -108,7 +106,8 @@ Input:
 
    Hey, are we still meeting for lunch today?
 Output:
-   HAM ✅
+
+   NOT SPAM ✅
 ## 🛠️ Tech Stack
 Python 3.8+
 
