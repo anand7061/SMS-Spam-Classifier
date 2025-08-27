@@ -65,11 +65,10 @@ sms-spam-classifier/
 ---
 
 
+## 🚀 Installation & Setup
 ---
 
-## 🚀 Installation & Setup
 
-```bash
 # 1. Clone the repository
 git clone https://github.com/<your-username>/sms-spam-classifier.git
 cd sms-spam-classifier
