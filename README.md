@@ -133,18 +133,3 @@ Select repo & branch → Deploy
 📜 License
 This project is licensed under the MIT License.
 
-yaml
-Copy code
-
----
-
-👉 Do you also want me to include an **Accuracy badge** (e.g., `Accuracy: 97%`) that reflects your trained model’s performance?
-
-
-
-
-
-
-
-Ask ChatGPT
-
